@@ -176,7 +176,7 @@ cv2.destroyAllWindows()
 ```Python
 import cv2
 img = cv2.imread('dip.jpg')
-img = cv2.resize(img,(300,200))
+img = cv2.resize(img,(200,200))
 
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 cv2.imshow('Original HSV Image',img)
@@ -192,14 +192,14 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![Screenshot 2024-02-13 094655](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/08e5e166-b16d-42c5-a641-8cd2a8231289)
+![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/6ca1170a-8bbd-4d0e-b175-d2d721d40820)
 
 
 ### viii) RGB and BGR to YCrCb
 ```Python
 import cv2
 img = cv2.imread('dip.jpg')
-img = cv2.resize(img,(300,200))
+img = cv2.resize(img,(200,200))
 cv2.imshow('Original RGB Image',img)
 
 YCrCb1 = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
@@ -213,7 +213,7 @@ cv2.destroyAllWindows()
 ```
 
 ### OUTPUT:
-![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/0fba2613-f048-4495-b4c8-4477cdb5596f)
+![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/cd119437-a765-4655-a4af-f7a0ad8dd688)
 
 ### ix) Split and merge RGB Image
 ```Python
@@ -244,7 +244,7 @@ cv2.destroyAllWindows()
 ```Python
 import cv2
 img = cv2.imread("blue.jpg",1)
-img = cv2.resize(img,(300,200))
+img = cv2.resize(img,(200,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
 H,S,V=cv2.split(img)
