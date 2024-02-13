@@ -44,7 +44,7 @@ Split and merge HSV Image
 
 ### i) Read and display the image
 
-<br> ```
+ ```
     import cv2
     image=cv2.imread('dip.jpg',1)
     image=cv2.resize(image,(500,500))
@@ -52,31 +52,31 @@ Split and merge HSV Image
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     ```
-<br> ![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/c6eb0f15-dd8d-4489-b191-f5c4b2b4e938)
+![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/c6eb0f15-dd8d-4489-b191-f5c4b2b4e938)
 
 
 ### ii)Write the image
 
-<br> ```
+ ```
     import cv2
     image=cv2.imread('dip.jpg',0)
     cv2.imwrite('demos.jpg',image)
     ```
-<br> ![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/3ca499f0-b16d-45fd-9a34-4316282a70ed)
+ ![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/3ca499f0-b16d-45fd-9a34-4316282a70ed)
 
 
 ### iii)Shape of the Image
 
-<br> ```
+ ```
     import cv2
     image=cv2.imread('dip.jpg',1)
     print(image.shape)
     ```
-<br> ![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/56fb0550-e2e5-4d8a-bd71-66595d74967e)
+![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/56fb0550-e2e5-4d8a-bd71-66595d74967e)
 
 
 ### iv)Access rows and columns
-<br> ```
+ ```
     import random
     import cv2
     image=cv2.imread('dip.jpg',1)
@@ -90,7 +90,7 @@ Split and merge HSV Image
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     ```
-<br> ![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/16758150-006c-4e09-8093-471bbeb70318)
+ ![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/16758150-006c-4e09-8093-471bbeb70318)
 
 
 ### v)Cut and paste portion of image
