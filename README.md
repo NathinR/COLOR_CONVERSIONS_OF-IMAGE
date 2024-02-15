@@ -259,7 +259,7 @@ cv2.imshow('Merged',merged)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-
+.
 ### OUTPUT:
 ![image](https://github.com/shalini-venkatesan/COLOR_CONVERSIONS_OF-IMAGE/assets/118720291/26513f50-9190-4d33-87a5-83a90f30da6f)
 
