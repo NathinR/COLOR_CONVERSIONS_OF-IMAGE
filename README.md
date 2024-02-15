@@ -36,11 +36,13 @@ Split and Merge RGB Image
 Split and merge HSV Image
 
 ##### Program:
-### Developed By:
-### Register Number: 
+```
+ Developed By: Nathin R
+ Register Number:212222230090 
+```
 
-
-## Output:
+## Image:
+![demo](https://github.com/NathinR/COLOR_CONVERSIONS_OF-IMAGE/assets/118679646/b77fd1f2-987c-4711-83c5-cca670a2aac7)
 
 ### i) Read and display the image
 
