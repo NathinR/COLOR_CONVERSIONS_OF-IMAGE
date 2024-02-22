@@ -59,7 +59,6 @@ cv2.destroyAllWindows()
 
 ### ii)Write the image
 ```
-import cv2
 image=cv2.imread('demo.jpg',0)
 cv2.imwrite('Nathin.jpg',image)
 ```
@@ -68,8 +67,6 @@ cv2.imwrite('Nathin.jpg',image)
 
 ### iii)Shape of the Image
 ```
-import cv2
-image=cv2.imread('demo.jpg',1)
 print(image.shape)
 ```
 #### OUTPUT
@@ -77,9 +74,6 @@ print(image.shape)
 
 ### iv)Access rows and columns
 ```
-import random
-import cv2
-image=cv2.imread('demo.jpg',1)
 image=cv2.resize(image,(400,400))
 for i in range (150,200):
     for j in range(image.shape[1]):
@@ -95,9 +89,6 @@ cv2.destroyAllWindows()
 
 ### v)Cut and paste portion of image
 ```
-import cv2
-image=cv2.imread('demo.jpg',1)
-image=cv2.resize(image,(400,400))
 tag =image[150:200,110:160]
 image[110:160,150:200] = tag
 cv2.imshow('partimage1',image)
@@ -109,8 +100,6 @@ cv2.destroyAllWindows()
 
 ### vi) BGR and RGB to HSV and GRAY
 ```
-import cv2
-img = cv2.imread('demo.jpg',1)
 img = cv2.resize(img,(300,200))
 cv2.imshow('Original Image',img)
 
@@ -136,10 +125,6 @@ cv2.destroyAllWindows()
 
 ### vii) HSV to RGB and BGR
 ```
-import cv2
-img = cv2.imread('demo.jpg')
-img = cv2.resize(img,(300,200))
-
 img = cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 cv2.imshow('Original HSV Image',img)
 
@@ -158,9 +143,6 @@ cv2.destroyAllWindows()
 
 ### viii) RGB and BGR to YCrCb
 ```
-import cv2
-img = cv2.imread('demo.jpg')
-img = cv2.resize(img,(300,200))
 cv2.imshow('Original RGB Image',img)
 
 YCrCb1 = cv2.cvtColor(img, cv2.COLOR_BGR2YCrCb)
@@ -177,10 +159,6 @@ cv2.destroyAllWindows()
 
 ### ix) Split and merge RGB Image
 ```
-import cv2
-img = cv2.imread('demo.jpg',1)
-img = cv2.resize(img,(300,200))
-
 R = img[:,:,2]
 G = img[:,:,1]
 B = img[:,:,0]
@@ -200,9 +178,6 @@ cv2.destroyAllWindows()
 
 ### x) Split and merge HSV Image
 ```
-import cv2
-img = cv2.imread("demo.jpg",1)
-img = cv2.resize(img,(300,200))
 img=cv2.cvtColor(img,cv2.COLOR_RGB2HSV)
 
 H,S,V=cv2.split(img)
